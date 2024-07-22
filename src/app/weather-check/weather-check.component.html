@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Check the Weather</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 mx-auto">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control input-keyword" placeholder="Enter City's or Country's Name" aria-label="City or Country Name" aria-describedby="button-addon2">
+        <button class="btn btn-primary" type="button" id="button-addon2" (click)="searchWeather()">Search</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="result" [innerHTML]="weatherResult"></div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h6>Made with <span>&#10084;</span> by sanrskyprtma</h6>
+  <h6>Powered by openweathermap.org API</h6>
+</div>

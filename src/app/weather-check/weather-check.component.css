@@ -1,0 +1,94 @@
+/* General body styles */
+body {
+  background-image: url('/assets/img/gambar-langit.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container styles */
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* Header styles */
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Input styles */
+.input-group {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input-group .form-control {
+  border-radius: 0;
+  padding: 15px;
+  font-size: 1.2em;
+  box-shadow: none;
+}
+
+.input-group .btn {
+  border-radius: 0;
+  padding: 15px 20px;
+  font-size: 1.2em;
+  background-color: #ff7f50;
+  border-color: #ff7f50;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.input-group .btn:hover {
+  background-color: #ff6347;
+  border-color: #ff6347;
+}
+
+/* Result container styles */
+.result {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  width: 100%;
+  max-width: 800px;
+  color: #fff;
+}
+
+/* Footer styles */
+.footer {
+  width: 100%;
+  background-color: #012443;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer h6 {
+  font-weight: 200;
+  margin: 5px 0;
+}
+
+.footer span {
+  color: crimson;
+}
